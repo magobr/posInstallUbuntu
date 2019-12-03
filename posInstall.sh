@@ -8,17 +8,12 @@ mkdir /home/$USER/Downloads/programas
 
 cd /home/$USER/Downloads/programas
 
-## install Gerenciador de pacotes ##
-sudo apt install snap
- 
-
 ## Arquivos .deb ##
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget -c https://az764295.vo.msecnd.net/stable/f359dd69833dd8800b54d458f6d37ab7c78df520/code_1.40.2-1574694120_amd64.deb
 
 ## install Gerenciador de pacotes ##
 sudo apt install snap
-sudo apt-get upgrade
 sudo apt install curl
 
 ## install Apps ##
@@ -35,12 +30,11 @@ sudo apt install git
 ## install nodejs ##
 sudo apt install nodejs
 sudo apt install npm
-sudo apt install yarn
+sudo npm install yarn --global
 
 ## install php ##
 sudo apt install apache2 
 sudo apt install php
 
-## install MySql ##
-sudo apt install mysql-server
-
+## Atualizar S.0 ##
+sudo apt-get upgrade
