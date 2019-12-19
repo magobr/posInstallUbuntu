@@ -17,10 +17,11 @@ sudo apt install snap
 sudo apt install curl
 
 ## install Apps ##
-sudo apt-get install vim
-sudo apt-get install gnome-tweak
+sudo apt install vim
+sudo apt install gnome-tweak
 
 sudo snap install blix
+sudo snap install libreoffice
 
 sudo dpkg -i *.deb
 
