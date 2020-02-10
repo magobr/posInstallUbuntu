@@ -16,14 +16,12 @@ wget -c https://az764295.vo.msecnd.net/stable/f359dd69833dd8800b54d458f6d37ab7c7
 sudo apt install snap
 sudo apt install curl
 
+## install Apps (dpkg) ##
+sudo dpkg -i *.deb
+
 ## install Apps ##
 sudo apt install vim
 sudo apt install gnome-tweak
-
-sudo snap install blix
-sudo snap install libreoffice
-
-sudo dpkg -i *.deb
 
 ## intall Git ##
 sudo apt install git
@@ -36,6 +34,10 @@ sudo npm install yarn --global
 ## install php ##
 sudo apt install apache2 
 sudo apt install php
+
+## install Apps (Snap) ##
+sudo snap install blix
+sudo snap install libreoffice
 
 ## Atualizar S.0 ##
 sudo apt-get upgrade
