@@ -21,15 +21,21 @@ sudo dpkg -i *.deb
 
 ## install Apps ##
 sudo apt install vim
-sudo apt install gnome-tweak
+sudo apt install gnome-tweaks
 
 ## intall Git ##
 sudo apt install git
 
-## install nodejs ##
+## install NodeJs ##
 sudo apt install nodejs
 sudo apt install npm
 sudo npm install yarn --global
+
+## ReactJs ##
+sudo npm install -g create-react-app
+
+## React Native ##
+npm install -g expo-cli
 
 ## install php ##
 sudo apt install apache2 
@@ -40,4 +46,4 @@ sudo snap install blix
 sudo snap install libreoffice
 
 ## Atualizar S.0 ##
-sudo apt-get upgrade
+sudo apt upgrade
