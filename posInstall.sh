@@ -10,9 +10,6 @@ sudo apt-get update
 
 sudo apt install flatpak -y
 
-mkdir /home/$USER/Downloads/programas
-cd /home/$USER/Downloads/programas
-
 ## Diretórios Padrão de Uso ##
 mkdir /home/$USER/Documentos/Academico
 
@@ -24,6 +21,10 @@ mkdir /home/$USER/Documentos/Church/Adolecentes
 
 mkdir /home/$USER/Documentos/Pessoal
 mkdir /home/$USER/Documentos/Pessoal/Repositórios
+
+## Repositórios para .deb ##
+mkdir /home/$USER/Downloads/programas
+cd /home/$USER/Downloads/programas
 
 ## Arquivos .deb ##
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
