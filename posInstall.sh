@@ -26,22 +26,32 @@ mkdir /home/$USER/Documentos/Pessoal/Repositórios
 mkdir /home/$USER/Downloads/programas
 cd /home/$USER/Downloads/programas
 
+## pCloud ##
+wget -c https://p-def1.pcloud.com/cBZLReAUjZLbsoWfZZZNTY9a7Z2ZZ7uRZkZpOo5VZzFZtkZO0ZYXZ45Z37ZpVZY0Z3FZr5ZGFZh5ZVXZyVZtouTkZE8jKR0KmdU0kUeWQcx9OBfW0LDmk/pcloud
+
 ## Arquivos .deb ##
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget -c https://az764295.vo.msecnd.net/stable/f359dd69833dd8800b54d458f6d37ab7c78df520/code_1.40.2-1574694120_amd64.deb
+
+## install Apps (dpkg) ##
+sudo dpkg -i *.deb -y
 
 ## install Gerenciador de pacotes ##
 sudo apt install snap -y
 sudo apt install curl -y
 
-## install Apps (dpkg) ##
-sudo dpkg -i *.deb -y
-
 ## install Apps ##
 sudo apt install vim -y
 sudo apt install gnome-tweaks -y
+sudo apt-get install youtube-dl -y
 
-## intall Git ##
+## install Docker ##
+snap install docker
+
+## install Vagrant ##
+sudo apt-get install vagrant -y
+
+## install Git ##
 sudo apt install git -y
 
 ## install NodeJs ##
