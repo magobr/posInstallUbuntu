@@ -39,14 +39,16 @@ sudo dpkg -i *.deb -y
 ## install Gerenciador de pacotes ##
 sudo apt install snap -y
 sudo apt install curl -y
+sudo apt install flatpak -y
 
 ## install Apps ##
 sudo apt install vim -y
 sudo apt install gnome-tweaks -y
 sudo apt-get install youtube-dl -y
+flatpak run org.mozilla.Thunderbird
 
 ## install Docker ##
-snap install docker
+snap install docker -y
 
 ## install Vagrant ##
 sudo apt-get install vagrant -y
