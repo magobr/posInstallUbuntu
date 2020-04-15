@@ -33,7 +33,7 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 wget -c https://az764295.vo.msecnd.net/stable/f359dd69833dd8800b54d458f6d37ab7c78df520/code_1.40.2-1574694120_amd64.deb
 
 ## install Apps (dpkg) ##
-sudo dpkg -i *.deb -y
+sudo dpkg -i *.deb
 
 ## install Gerenciador de pacotes ##
 sudo apt install snap -y
@@ -44,10 +44,23 @@ sudo apt install flatpak -y
 sudo apt install vim -y
 sudo apt install gnome-tweaks -y
 sudo apt-get install youtube-dl -y
-sudo snap install thunderbird -y
+sudo snap install thunderbird
+
+## install Insomnia ##
+echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
+    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
+wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
+    | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install insomnia
 
 ## install Docker ##
-sudo snap install docker -y
+sudo apt-get install  curl apt-transport-https ca-certificates software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt update
+sudo apt install docker-ce
+
 
 ## install Vagrant ##
 sudo apt-get install vagrant -y
@@ -59,4 +72,3 @@ sudo apt install git -y
 sudo apt install nodejs -y
 sudo apt install npm -y
 sudo npm install yarn --global
-
