@@ -19,13 +19,14 @@ Abra o terminar e na pasta do repositório e execute o seguinte comando:
 - Vim
 - Gnome Tweaks
 - Youtube-dl
+- Thunderbird
 
 #### Ferramentas de Desenvolvedor ####
 
-- Docker
+- Docker e Docker Compose
 - Git
 - NodeJs
 - npm
-- apache2
-- php
+- yarn
 - Vagrant
+- Insomnia

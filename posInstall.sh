@@ -61,12 +61,10 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install docker-ce
 
+## install Docker Compose ##
 
-## install Vagrant ##
-sudo apt-get install vagrant -y
-
-## install Git ##
-sudo apt install git -y
+sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 
 ## install NodeJs ##
 sudo apt install nodejs -y

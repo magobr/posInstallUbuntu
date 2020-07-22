@@ -1,4 +1,0 @@
-https://linuxconfig.org/install-mysql-on-ubuntu-18-04-bionic-beaver-linux
-
-sudo mysql -u root
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'SuaSenha';
