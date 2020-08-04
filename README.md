@@ -1,18 +1,8 @@
-# Shell Script para Pós-Formatação ubuntu
+# Shell Script para Pós-Formatação Ubuntu
 
 ### Passos para executar o Script
 
-#### - Primeiro utilize de as permições de executar o arquivo __posInstall.sh__###
-
-Permitir execução do arquivo como um programa
-
-Abra o terminar e na pasta do repositório e execute o seguinte comando:
-
-```
-./posInstall.sh
-```
-
-#### Lista de Apps a serem instalados ####
+#### Lista de Apps a serem instalados
 
 - Google Chorme
 - Visual Studio Code
@@ -21,7 +11,7 @@ Abra o terminar e na pasta do repositório e execute o seguinte comando:
 - Youtube-dl
 - Thunderbird
 
-#### Ferramentas de Desenvolvedor ####
+#### Ferramentas de Desenvolvedor
 
 - Docker e Docker Compose
 - Git
@@ -30,3 +20,24 @@ Abra o terminar e na pasta do repositório e execute o seguinte comando:
 - yarn
 - Vagrant
 - Insomnia
+
+---
+
+Primeiro permita a execução do arquivo como programa:
+
+```
+chmod +x pos-install.sh
+```
+
+ Depois rodoe o script para instalar os softwares e aplicar as configurações:
+
+```
+./posInstall.sh
+```
+## Mudar Imagem da Tela de bloqueio
+
+Abra o terminal e execute o arquivo set-wallpaper.sh com o caminho do wallpaper desejado:
+
+```
+./set-wallpaper.sh "caminho da imagem"
+```
