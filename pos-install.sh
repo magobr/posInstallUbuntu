@@ -10,6 +10,7 @@ sudo apt-get update -y
 
 sudo dpkg --configure -a
 
+## Repositório flatpak ##
 sudo apt install flatpak -y
 
 ## Diretórios Padrão de Uso ##
@@ -41,6 +42,7 @@ sudo apt install curl -y
 sudo apt install flatpak -y
 
 ## install Apps ##
+sudo apt install unrar -y
 sudo apt install vim -y
 sudo apt install gnome-tweaks -y
 sudo apt-get install youtube-dl -y
@@ -51,15 +53,15 @@ echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
     | sudo tee -a /etc/apt/sources.list.d/insomnia.list
 wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
     | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install insomnia
+sudo apt-get update -y
+sudo apt-get install insomnia -y
 
 ## install Docker ##
 sudo apt-get install  curl apt-transport-https ca-certificates software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt update
-sudo apt install docker-ce
+sudo apt update -y
+sudo apt install docker-ce -y
 
 ## install Docker Compose ##
 

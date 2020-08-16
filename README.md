@@ -1,7 +1,5 @@
 # Shell Script para Pós-Formatação Ubuntu
 
-### Passos para executar o Script
-
 #### Lista de Apps a serem instalados
 
 - Google Chorme
@@ -22,6 +20,8 @@
 - Insomnia
 
 ---
+
+### Passos para executar o Script
 
 Primeiro permita a execução do arquivo como programa:
 
