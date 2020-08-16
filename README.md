@@ -18,6 +18,7 @@
 - yarn
 - Vagrant
 - Insomnia
+- unrar
 
 ---
 
@@ -29,7 +30,7 @@ Primeiro permita a execução do arquivo como programa:
 chmod +x pos-install.sh
 ```
 
- Depois rodoe o script para instalar os softwares e aplicar as configurações:
+ Depois execute o script para instalar os softwares e aplicar as configurações:
 
 ```
 ./posInstall.sh
