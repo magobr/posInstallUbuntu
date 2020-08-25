@@ -69,6 +69,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 ## install NodeJs ##
-sudo apt install nodejs -y
+curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
 sudo apt install npm -y
 sudo npm install yarn --global
