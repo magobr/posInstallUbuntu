@@ -70,6 +70,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ## install NodeJs ##
 curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get update -y
 sudo apt-get install -y nodejs
 sudo apt install npm -y
 sudo npm install yarn --global
