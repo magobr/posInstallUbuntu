@@ -7,6 +7,7 @@
 - Vim
 - Gnome Tweaks
 - Youtube-dl
+- VLC
 - Thunderbird
 
 #### Ferramentas de Desenvolvedor

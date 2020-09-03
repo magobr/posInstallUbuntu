@@ -32,6 +32,7 @@ cd /home/$USER/Downloads/programas
 ## Arquivos .deb ##
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget -c https://az764295.vo.msecnd.net/stable/f359dd69833dd8800b54d458f6d37ab7c78df520/code_1.40.2-1574694120_amd64.deb
+wget -c https://flathub.org/repo/appstream/org.videolan.VLC.flatpakref
 
 ## install Apps (dpkg) ##
 sudo dpkg -i *.deb
@@ -46,7 +47,8 @@ sudo apt install unrar -y
 sudo apt install vim -y
 sudo apt install gnome-tweaks -y
 sudo apt-get install youtube-dl -y
-sudo snap install thunderbird
+sudo flatpak install flathub org.videolan.VLC -y 
+sudo snap install thunderbird 
 
 ## install Insomnia ##
 echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
