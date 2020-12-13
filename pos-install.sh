@@ -47,8 +47,6 @@ sudo apt install unrar -y
 sudo apt install vim -y
 sudo apt install gnome-tweaks -y
 sudo apt-get install youtube-dl -y
-sudo flatpak install flathub org.videolan.VLC -y 
-sudo snap install thunderbird 
 
 ## install Insomnia ##
 echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
@@ -76,3 +74,11 @@ sudo apt-get update -y
 sudo apt-get install -y nodejs
 sudo apt install npm -y
 sudo npm install yarn --global
+
+## Instalar Font 'Fira Code' ##
+git clone https://github.com/tonsky/FiraCode.git
+cd FiraCode/distr/ttf
+sudo mv *.ttf /usr/local/share/fonts
+fc-cache -f -v
+
+
